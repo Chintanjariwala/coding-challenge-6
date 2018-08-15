@@ -1,6 +1,6 @@
 {
-  "name": "@chintanjariwala/hexrgbconversion",
-  "version": "1.0.0",
+  "name": "@chintan93/hexrgbconversion",
+  "version": "1.0.1",
   "description": "Code Challenge 6 - Course - Complete Web Developer in 2018",
   "main": "index.js",
   "scripts": {
