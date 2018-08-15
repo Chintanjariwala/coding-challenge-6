@@ -24,15 +24,13 @@ const groupArray = (input) => {
     return tempArray;
 };
 
+const sortArray = (arr, type) => arr.filter(number => typeof(number) === type);
+
+const sort = arr => arr.sort((a, b) => a - b);
+
 const answer = array => {
-    const numberArray = groupArray(array
-        .filter(number => typeof(number) === 'number')
-        .sort((a, b) => a - b)
-    );
-    const stringArray = groupArray(array
-        .filter(number => typeof(number) === 'string')
-        .sort((a, b) => a - b)
-    );
+    const numberArray = groupArray(sort(sortArray(array, 'number')));
+    const stringArray = groupArray(sort(sortArray(array, 'string')));
     const finalArray = [numberArray].concat([stringArray]);
     return stringArray.length ? finalArray : numberArray;
 };

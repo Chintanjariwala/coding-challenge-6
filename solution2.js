@@ -11,6 +11,7 @@ const answer = (array, value) => {
                 return [array[i], array[j]];
             }
     }
+    return `No matching pair found in given array [${array}]`;
 }
 
 answer([1, 2, 3], 4);
