@@ -1,0 +1,16 @@
+{
+  "name": "@chintanjariwala/hexrgbconversion",
+  "version": "1.0.0",
+  "description": "Code Challenge 6 - Course - Complete Web Developer in 2018",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rgb",
+    "hex",
+    "conversion"
+  ],
+  "author": "Chintan Jariwala <jariwala1993@gmail.com> (https://chintanjariwala.github.io/#home)",
+  "license": "ISC"
+}
