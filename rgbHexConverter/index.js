@@ -16,6 +16,6 @@ const rgbHexConversion = (hexR = 0, g = 0, b = 0) => {
     }
 }
 
-module.exports = { rgbHexConversion };
+module.exports = rgbHexConversion;
 
 //rgbHexConversion("#ea2291")
